@@ -1,6 +1,7 @@
 function manipulandoArray(num){
     
     var num ;
+    console.log(`Núnmero que sera reduzido: ${num}`);
 
     while ((num > 1) && (num != 4)) {
 
@@ -10,6 +11,7 @@ function manipulandoArray(num){
         let x = b.map(item => Math.pow(item, 2))
         console.log(x)
 
+     
         num = x.reduce((a, c) => a + c, 0)
         console.log(num)
 
